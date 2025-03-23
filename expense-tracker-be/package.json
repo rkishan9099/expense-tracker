@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "build-container": "npx tsc",
+    "build": "nest build",
+    "start": "nest start",
     "serve-build": "nodemon build/server.js",
     "debug": "node --inspect -r ts-node/register src/server.ts",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
