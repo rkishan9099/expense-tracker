@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-sider {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.main-layout {
+  margin-left: 200px;
+  transition: margin-left 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .main-layout {
+    margin-left: 80px;
+  }
+}
+
+.header {
+  padding: 0 16px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.menu-toggle-btn {
+  font-size: 16px;
+}
+
+.content-container {
+  margin: 24px 16px;
+  padding: 24px;
+  min-height: calc(100vh - 64px);
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 8px;
+}
