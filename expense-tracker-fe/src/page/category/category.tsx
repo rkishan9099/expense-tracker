@@ -17,8 +17,7 @@ import Highlighter from "react-highlight-words";
 import { Input, InputRef } from "antd"; // Ensure this import is correct
 import { ColumnType } from "antd/es/table"; // Adjust the import as necessary
 import { useAppDispatch, useAppSelector } from "../../store/store";
-import { Link, useNavigate } from "react-router-dom";
-import APP_PATH from "../../routes/app-path";
+import {  useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { ApiStatus } from "../../type/app.type";
 import { deleteCategory, fetchCategories, setSelctedCategory } from "../../store/category/category.slice";
@@ -35,7 +34,6 @@ const CategoryPage: React.FC = () => {
     const searchInput = useRef<InputRef | null>(null);
 
     const [deleteId, setDeleteId] = useState("")
-    const navigate = useNavigate()
     const [filters, setFilters] = useState<any>({
     });
 

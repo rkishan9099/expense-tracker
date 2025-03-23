@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { LeftOutlined } from '@ant-design/icons'
 import { Row, Col, Button, Divider, Typography } from 'antd'
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useAppDispatch } from '../../store/store'
 import AddEditUsersForm from '../../components/users/AddEditUsersForm'

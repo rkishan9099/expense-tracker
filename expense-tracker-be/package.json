@@ -4,15 +4,13 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "build": "nest build",
-    "start": "nest start",
     "serve-build": "nodemon build/server.js",
     "debug": "node --inspect -r ts-node/register src/server.ts",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:fix": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "start:dev": "nodemon --exec ts-node src/server.ts",
-    "start:prod": "node build/server.js",
-    "start:build": "tsc"
+    "start": "node build/server.js",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",

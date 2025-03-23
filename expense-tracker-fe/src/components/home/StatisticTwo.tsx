@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Table } from 'antd'
 import { ColumnType } from 'antd/es/table'
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import { fetchStatistic2 } from '../../store/expenses/statistic.slice'
 import { useAppSelector, useAppDispatch } from '../../store/store'
 

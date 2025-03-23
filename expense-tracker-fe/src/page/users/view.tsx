@@ -2,7 +2,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { LeftOutlined } from "@ant-design/icons";
 import { Button, Col, Descriptions, Divider, Row, Skeleton, Typography } from "antd";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../store/store";
 import { getUserDetails } from "../../store/users/user.slice";
