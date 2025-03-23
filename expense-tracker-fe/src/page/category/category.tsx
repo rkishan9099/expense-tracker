@@ -17,7 +17,6 @@ import Highlighter from "react-highlight-words";
 import { Input, InputRef } from "antd"; // Ensure this import is correct
 import { ColumnType } from "antd/es/table"; // Adjust the import as necessary
 import { useAppDispatch, useAppSelector } from "../../store/store";
-import {  useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { ApiStatus } from "../../type/app.type";
 import { deleteCategory, fetchCategories, setSelctedCategory } from "../../store/category/category.slice";

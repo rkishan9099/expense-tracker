@@ -137,7 +137,7 @@ const ExpensesPage: React.FC = () => {
         };
     };
 
-    const handleChange = (pagination: any, Tablefilters: any) => {
+    const handleChange = (_pagination: any, Tablefilters: any) => {
         let applyFilters: any = {};
         if (Array.isArray(Tablefilters?.user_name) && Tablefilters.user_name.length > 0) {
             applyFilters.users = Tablefilters.user_name;
